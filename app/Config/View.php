@@ -1,8 +1,8 @@
 <?php
 
-use Bonfim\Component\View\View;
+use Sketch\Tpl;
 
-View::config([
+Tpl::config([
     'template_dir' => 'app/View',
     'cache_dir'    => 'app/Cache'
 ]);

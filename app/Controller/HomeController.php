@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-use Bonfim\Application\Controller;
+use Pizza\Controller;
 
 class HomeController extends Controller
 {

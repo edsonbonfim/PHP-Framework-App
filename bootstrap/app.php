@@ -2,7 +2,7 @@
 
 include getcwd() . '/vendor/autoload.php';
 
-use Bonfim\Application\App;
+use Pizza\App;
 
 $app = new App();
 

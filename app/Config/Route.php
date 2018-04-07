@@ -1,5 +1,5 @@
 <?php
 
-use Bonfim\Component\Routing\Route;
+use Router\Route;
 
 Route::get('/', 'HomeController::index');
