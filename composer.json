@@ -1,22 +1,20 @@
 {
-    "name": "bonfim/Bonfim",
-    "description": "The Bonfim PHP Framework",
-    "keywords": ["Bonfim", "framework", "php"],
+    "name": "pizza/skeleton",
+    "type": "framework",
+    "description": "The skeleton of Pizza Framework",
+    "homepage": "https://github.com/EdsonOnildoJR/Sketch",
     "license": "MIT",
-    "homepage": "https://github.com/EdsonOnildoJR/Pizza-Skeleton",
-    "support": {
-        "issues": "https://github.com/EdsonOnildoJR/Pizza-Skeleton/issues",
-        "source": "https://github.com/EdsonOnildoJR/Pizza-Skeleton"
-    },
     "authors": [
         {
             "name": "Edson Onildo",
-            "email": "edsononildo@bonfimsystems.com"
+            "email": "inbox.edsononildo@gmail.com",
+            "homepage": "https://github.com/EdsonOnildoJR",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": "^7.1.0",
-        "pizza/pizza": "dev-master"
+        "pizza/pizza": "^1.0"
     },
     "autoload": {
         "psr-4": {
@@ -25,6 +23,5 @@
     },
     "config": {
         "sort-packages": true
-    },
-    "minimum-stability": "dev"
+    }
 }
