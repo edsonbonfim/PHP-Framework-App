@@ -1,8 +1,7 @@
 <?php
 
-use Sketch\Tpl;
-
-Tpl::config([
+Sketch\Tpl::config([
+    'environment'  => 'development',
     'template_dir' => 'app/View',
     'cache_dir'    => 'app/Cache'
 ]);

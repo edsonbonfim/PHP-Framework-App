@@ -2,13 +2,10 @@
 
 namespace App\Controller;
 
-use Pizza\Controller;
-
-class HomeController extends Controller
+class HomeController extends \Pizza\Controller
 {
     public function index()
     {
-        $this->view->title('Bonfim Framework');
         $this->view->render('index');
     }
 }
