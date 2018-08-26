@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Controller;
+namespace App\Index;
 
-class HomeController extends \Pizza\Controller
+class IndexController extends \Pizza\Controller
 {
     public function index()
     {
@@ -14,6 +14,6 @@ class HomeController extends \Pizza\Controller
             'author'  => 'Edson Onildo',
             'license' => 'https://github.com/EdsonOnildoJR/Pizza-Framework/blob/master/LICENSE.md'
         ]);
-        $this->view->render('index');
+        $this->view->render('Index/index');
     }
 }
