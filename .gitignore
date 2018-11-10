@@ -1,3 +1,6 @@
-/vendor
+build
 composer.lock
-/cache
+vendor
+.idea
+.subsplit
+.update.sh
