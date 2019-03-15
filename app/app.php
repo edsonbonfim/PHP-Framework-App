@@ -1,5 +1,8 @@
 <?php
 
-Route::get('/', function () {
-	echo '<h1 class="text-center mt-5">SketchPHP Framework</h1>';
-});
+function funcao()
+{
+    echo "Ola mundo";
+}
+
+Route::get('/', "AuthController@cadastro");

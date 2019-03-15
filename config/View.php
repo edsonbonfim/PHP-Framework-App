@@ -1,7 +1,7 @@
 <?php
 
-Sketch\View\Tpl::config([
-    'environment'  => 'development',
-    'template_dir' => 'app',
+EdsonOnildo\Tpl\Tpl::config([
+    'dev'  => true,
+    'template_dir' => dirname(__DIR__) . '/app/View/',
     'cache_dir'    => '.cache'
 ]);
