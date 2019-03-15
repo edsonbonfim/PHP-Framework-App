@@ -1,8 +1,9 @@
 <?php
 
-function funcao()
-{
-    echo "Ola mundo";
-}
+use EdsonOnildo\Router\Route;
 
-Route::get('/', "AuthController@cadastro");
+Route::get('/', function() {
+    render('index');
+});
+
+Route::get('/login', 'AuthController@login');

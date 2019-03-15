@@ -4,8 +4,8 @@ namespace App\Controller;
 
 class AuthController
 {
-    public function cadastro()
+    public function login()
     {
-        render('auth.cadastro');
+
     }
 }
