@@ -6,6 +6,6 @@ class AuthController
 {
     public function cadastro()
     {
-        render('auth/cadastro');
+        render('auth.cadastro');
     }
 }
