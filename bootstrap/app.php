@@ -13,8 +13,7 @@ function assign($key, $value)
 
 function render($view)
 {
-    $view = str_replace('.', '/', $view);
-    EdsonOnildo\Tpl\Tpl::render("View/$view");
+    EdsonOnildo\Tpl\Tpl::render("$view");
 }
 
 
